@@ -47,6 +47,7 @@
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active" id="personas">
 						<form style="margin-top:16px" name="registro-personas" id="registro-personas" action="{{url('registro-personas')}}" method="post">
+							{{Form::token()}}
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
