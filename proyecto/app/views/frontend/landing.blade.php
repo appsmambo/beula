@@ -49,9 +49,14 @@
 						<form style="margin-top:16px" name="registro-personas" id="registro-personas" action="{{url('registro-personas')}}" method="post">
 							{{Form::token()}}
 							<div class="row">
+								<div class="col-xs-12">
+									<label for="persona_nombres">Datos personales:</label>
+								</div>
+							</div>
+							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" name="persona_nombres" placeholder="Nombres" autofocus>
+										<input type="text" class="form-control" name="persona_nombres" id="persona_nombres" placeholder="Nombres" autofocus>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -78,18 +83,29 @@
 							<div class="form-group">
 								<label for="persona_curso">Quiero matricularme en:</label>
 								<select class="form-control" name="persona_curso" id="persona_curso">
-									<option value="curso-1">Curso 1</option>
-									<option value="curso-2">Curso 2</option>
+								@foreach($cursos as $curso)
+									<option value="{{$curso['id']}}">{{$curso['descripcion']}}</option>
+								@endforeach
 								</select>
 							</div>
 							<div class="form-group">
 								<label for="persona_comentario">Comentario:</label>
 								<textarea class="form-control" rows="3" name="persona_comentario" id="persona_comentario"></textarea>
 							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<label>Autorización envío de información</label>
+								</div>
+							</div>
 							<div class="checkbox">
 								<label>
-								  <input type="checkbox" name="persona_informacion"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
+									<input type="checkbox" name="persona_informacion" value="1"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
 								</label>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<label>Autorización para el tratamiento de datos personales</label>
+								</div>
 							</div>
 							<div class="checkbox">
 								<label>
@@ -100,11 +116,17 @@
 						</form>
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="empresas">
-						<form style="margin-top:16px">
+						<form style="margin-top:16px" name="registro-empresas" id="registro-empresas" action="{{url('registro-empresas')}}" method="post">
+							{{Form::token()}}
+							<div class="row">
+								<div class="col-xs-12">
+									<label for="empresa_razonsocial">Datos de la empresa:</label>
+								</div>
+							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" name="empresa_razonsocial" placeholder="Razón Social">
+										<input type="text" class="form-control" name="empresa_razonsocial" id="empresa_razonsocial" placeholder="Razón Social">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -112,10 +134,6 @@
 										<input type="tel" class="form-control" name="empresa_ruc" placeholder="RUC">
 									</div>
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="empresa_inscritos">Nombres de Inscritos:</label>
-								<textarea class="form-control" rows="3" name="empresa_inscritos" id="empresa_inscritos"></textarea>
 							</div>
 							<div class="row">
 								<div class="col-md-6">
@@ -142,20 +160,35 @@
 								</div>
 							</div>
 							<div class="form-group">
+								<label for="empresa_inscritos">Nombres de Inscritos:</label>
+								<textarea class="form-control" rows="3" name="empresa_inscritos" id="empresa_inscritos"></textarea>
+							</div>
+							<div class="form-group">
 								<label for="empresa_curso">Quiero matricularme en:</label>
 								<select class="form-control" name="empresa_curso" id="persona_curso">
-									<option value="curso-1">Curso 1</option>
-									<option value="curso-2">Curso 2</option>
+								@foreach($cursos as $curso)
+									<option value="{{$curso['id']}}">{{$curso['descripcion']}}</option>
+								@endforeach
 								</select>
 							</div>
 							<div class="form-group">
 								<label for="empresa_comentario">Comentario:</label>
 								<textarea class="form-control" rows="3" name="empresa_comentario" id="empresa_comentario"></textarea>
 							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<label>Autorización envío de información</label>
+								</div>
+							</div>
 							<div class="checkbox">
 								<label>
 								  <input type="checkbox" name="empresa_informacion"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
 								</label>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<label>Autorización para el tratamiento de datos personales</label>
+								</div>
 							</div>
 							<div class="checkbox">
 								<label>

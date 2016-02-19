@@ -5,9 +5,9 @@ use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
 
-class LandingPersona extends Eloquent implements UserInterface, RemindableInterface {
+class Cursos extends Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait;
-	protected $table = 'landing_persona';
+	protected $table = 'cursos';
 
 }
