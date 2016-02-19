@@ -46,15 +46,16 @@ class HomeController extends BaseController {
 
 			$empresa = new LandingEmpresa;
 
-			$empresa->razon_social			= ucwords(strtolower(Input::get('persona_nombres')));
-			$empresa->ruc					= ucwords(strtolower(Input::get('persona_apellidos')));
-			$empresa->inscritos				= Input::get('persona_telefono');
-			$empresa->domicilio				= Input::get('persona_celular');
-			$empresa->telefono				= Input::get('persona_email');
-			$empresa->celular				= Input::get('persona_email');
-			$empresa->curso					= Input::get('persona_curso');
-			$empresa->comentario			= Input::get('persona_comentario');
-			$empresa->recibirnoticias		= Input::get('persona_informacion');
+			$empresa->razon_social			= ucwords(strtolower(Input::get('empresa_razonsocial')));
+			$empresa->ruc					= ucwords(strtolower(Input::get('empresa_ruc')));
+			$empresa->inscritos				= Input::get('empresa_inscritos');
+			$empresa->domicilio				= Input::get('empresa_domicilio');
+			$empresa->email					= Input::get('empresa_email');
+			$empresa->telefono				= Input::get('empresa_telefono');
+			$empresa->celular				= Input::get('empresa_celular');
+			$empresa->curso					= Input::get('empresa_curso');
+			$empresa->comentario			= Input::get('empresa_comentario');
+			$empresa->recibirnoticias		= Input::get('empresa_informacion');
 			$empresa->ip					= Request::getClientIp(true);
 
 			$empresa->save();

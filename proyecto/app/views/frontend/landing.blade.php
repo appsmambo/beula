@@ -165,7 +165,7 @@
 							</div>
 							<div class="form-group">
 								<label for="empresa_curso">Quiero matricularme en:</label>
-								<select class="form-control" name="empresa_curso" id="persona_curso">
+								<select class="form-control" name="empresa_curso" id="empresa_curso">
 								@foreach($cursos as $curso)
 									<option value="{{$curso['id']}}">{{$curso['descripcion']}}</option>
 								@endforeach
@@ -182,7 +182,7 @@
 							</div>
 							<div class="checkbox">
 								<label>
-								  <input type="checkbox" name="empresa_informacion"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
+									<input type="checkbox" name="empresa_informacion" value="1"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
 								</label>
 							</div>
 							<div class="row">
