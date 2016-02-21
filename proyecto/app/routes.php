@@ -1,14 +1,14 @@
 <?php
 
-// frontend
-Route::get('/', 'HomeController@getLanding');
+// landing
+Route::get('/', 'LandingController@index');
 
 
 
 
-Route::post('profile', array('before' => 'csrf', function()
+Route::group(array('before' => 'csrf'), function()
 {
-	Route::post('/registro-personas', 'HomeController@postRegistroPersonas');
-	Route::post('/registro-empresas', 'HomeController@postRegistroEmpresas');
-}));
+	Route::post('/registro-personas', 'LandingController@postRegistroPersonas');
+	Route::post('/registro-empresas', 'LandingController@postRegistroEmpresas');
+});
 

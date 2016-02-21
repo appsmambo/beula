@@ -8,7 +8,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic" rel="stylesheet" type="text/css">
 		<link href="{{url('css/bootstrap.min.css')}}" rel="stylesheet">
 		<link href="{{url('js/fancyapps/jquery.fancybox.css')}}" rel="stylesheet">
-		<link href="{{url('css/main.css')}}" rel="stylesheet">
+		<link href="{{url('js/validetta-v1.0.1-dist/validetta.min.css')}}" rel="stylesheet">
+		<link href="{{url('css/landing.css')}}" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -28,11 +29,15 @@
 					fadeOutTime:750
 				});
 			});
+			var urlPersonas = '{{url('registro-personas')}}';
+			var urlEmpresas = '{{url('registro-empresas')}}';
 		</script>
 		<script src="{{url('js/jquery.min.js')}}"></script>
 		<script src="{{url('js/bootstrap.min.js')}}"></script>
 		<script src="{{url('js/fancyapps/jquery.fancybox.pack.js')}}"></script>
-		<script src="{{url('js/main.js')}}"></script>
+		<script src="{{url('js/validetta-v1.0.1-dist/validetta.min.js')}}"></script>
+		<script src="{{url('js/jquery.blockUI.js')}}"></script>
+		<script src="{{url('js/landing.js')}}"></script>
 	</head>
 	<body>
 		<div class="hidden">
@@ -46,7 +51,7 @@
 				</ul>
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active" id="personas">
-						<form style="margin-top:16px" name="registro-personas" id="registro-personas" action="{{url('registro-personas')}}" method="post">
+						<form style="margin-top:16px" name="registro-personas" id="registro-personas" action="#" method="post">
 							{{Form::token()}}
 							<div class="row">
 								<div class="col-xs-12">
@@ -56,19 +61,19 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" name="persona_nombres" id="persona_nombres" placeholder="Nombres" autofocus>
+										<input type="text" class="form-control" name="persona_nombres" id="persona_nombres" placeholder="Nombres" autofocus data-validetta="required">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" name="persona_apellidos" placeholder="Apellidos">
+										<input type="text" class="form-control" name="persona_apellidos" placeholder="Apellidos" data-validetta="required">
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="tel" class="form-control" name="persona_telefono" placeholder="Teléfono">
+										<input type="tel" class="form-control" name="persona_telefono" placeholder="Teléfono" data-validetta="required">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -78,7 +83,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" name="persona_email" placeholder="Correo electrónico">
+								<input type="email" class="form-control" name="persona_email" placeholder="Correo electrónico" data-validetta="required,email">
 							</div>
 							<div class="form-group">
 								<label for="persona_curso">Quiero matricularme en:</label>
@@ -98,8 +103,8 @@
 								</div>
 							</div>
 							<div class="checkbox">
-								<label>
-									<input type="checkbox" name="persona_informacion" value="1"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
+								<label for="persona_informacion">
+									<input type="checkbox" name="persona_informacion" id="persona_informacion" value="1"> Deseo recibir recibir información acerca de programas, cursos y seminarios. de parte de Beula Consultores.
 								</label>
 							</div>
 							<div class="row">
@@ -108,15 +113,15 @@
 								</div>
 							</div>
 							<div class="checkbox">
-								<label>
-								  <input type="checkbox" name="persona_politicas"> Al presionar en ENVIAR, usted acepta haber leído y aceptado <a href="#">La Política de Seguridad y Privacidad</a>.
+								<label for="persona_politicas">
+								  <input type="checkbox" name="persona_politicas" id="persona_politicas" data-validetta="required"> Al presionar en ENVIAR, usted acepta haber leído y aceptado <a href="#">La Política de Seguridad y Privacidad</a>.
 								</label>
 							</div>
 							<button type="submit" class="btn btn-info">ENVIAR</button>
 						</form>
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="empresas">
-						<form style="margin-top:16px" name="registro-empresas" id="registro-empresas" action="{{url('registro-empresas')}}" method="post">
+						<form style="margin-top:16px" name="registro-empresas" id="registro-empresas" action="#" method="post">
 							{{Form::token()}}
 							<div class="row">
 								<div class="col-xs-12">
@@ -126,31 +131,31 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" name="empresa_razonsocial" id="empresa_razonsocial" placeholder="Razón Social">
+										<input type="text" class="form-control" name="empresa_razonsocial" id="empresa_razonsocial" placeholder="Razón Social" data-validetta="required">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="tel" class="form-control" name="empresa_ruc" placeholder="RUC">
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" name="empresa_domicilio" placeholder="Domicilio fiscal">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="email" class="form-control" name="empresa_email" placeholder="Correo electrónico">
+										<input type="tel" class="form-control" name="empresa_ruc" placeholder="RUC" data-validetta="required">
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="tel" class="form-control" name="empresa_telefono" placeholder="Teléfono">
+										<input type="text" class="form-control" name="empresa_domicilio" placeholder="Domicilio fiscal" data-validetta="required">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control" name="empresa_email" placeholder="Correo electrónico" data-validetta="required,email">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="tel" class="form-control" name="empresa_telefono" placeholder="Teléfono" data-validetta="required">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -161,7 +166,7 @@
 							</div>
 							<div class="form-group">
 								<label for="empresa_inscritos">Nombres de Inscritos:</label>
-								<textarea class="form-control" rows="3" name="empresa_inscritos" id="empresa_inscritos"></textarea>
+								<textarea class="form-control" rows="3" name="empresa_inscritos" id="empresa_inscritos" data-validetta="required"></textarea>
 							</div>
 							<div class="form-group">
 								<label for="empresa_curso">Quiero matricularme en:</label>
@@ -191,8 +196,8 @@
 								</div>
 							</div>
 							<div class="checkbox">
-								<label>
-								  <input type="checkbox" name="empresa_politicas"> Al presionar en ENVIAR, usted acepta haber leído y aceptado <a href="#">La Política de Seguridad y Privacidad</a>.
+								<label for="empresa_politicas">
+								  <input type="checkbox" name="empresa_politicas" id="empresa_politicas" data-validetta="required"> Al presionar en ENVIAR, usted acepta haber leído y aceptado <a href="#">La Política de Seguridad y Privacidad</a>.
 								</label>
 							</div>
 							<button type="submit" class="btn btn-info">ENVIAR</button>
