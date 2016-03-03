@@ -1,5 +1,8 @@
 <?php
 
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@getHome'));
+
+
 // landing
 Route::get('/', 'LandingController@index');
 

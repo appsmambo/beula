@@ -3,12 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/js/landing.js</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/controllers/LandingController.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/config/app.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/css/landing.css</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/routes.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/css/main.css</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/bootstrap/start.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/routes.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/controllers/HomeController.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/frontend/home.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/layouts/frontend.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/config/local/database.php</file>
         </group>
     </open-files>
 </project-private>
