@@ -2,9 +2,19 @@
 
 class HomeController extends BaseController {
 
-	public function getHome()
+	public function getInicio()
 	{
-		return View::make('frontend.home');
+		return View::make('inicio');
+	}
+	
+	public function getAcercaDe()
+	{
+		return View::make('beula.acerca-de');
+	}
+	
+	public function getMisionVision()
+	{
+		return View::make('beula.mision-vision');
 	}
 
 }
