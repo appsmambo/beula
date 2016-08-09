@@ -8,6 +8,8 @@
             <file>file:/C:/xampp/htdocs/beula/proyecto/assets/css/styles.css</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/routes.php</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/controllers/HomeController.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/beula/mision-vision.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/beula/acerca-de.blade.php</file>
         </group>
     </open-files>
 </project-private>

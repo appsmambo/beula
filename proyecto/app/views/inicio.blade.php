@@ -145,23 +145,33 @@
 						<div class="parrafo">
 							<div class="scrollbar-inner">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
+									Contamos con los programas más efectivos del mercado; sabemos que la desvinculación laboral (para la empresa) o conseguir un nuevo empleo (para el colaborador), puede llegar a ser un tema engorroso con consecuencias negativas a nivel personal, de relaciones interpersonales e incluso a nivel legal. Por ello Beula Consultores; desarrolla programas de recolocación personalizados que tienen como fin asesorar psicológicamente y laboralmente en el proceso de desvinculación a la organización y al propio colaborador, multiplicando las oportunidades de que consiga empleo en menor tiempo y evitando problemas que podrían afectar la imagen de la compañía.
+									<br><br>
+									En este proceso ayudamos al colaborador a reducir el conflicto emocional, lo orientamos para que afronte un proceso de selección exitosamente, circulamos su CV (empoderado) a una amplia red de contactos y no solo eso, lo empoderamos a través de talleres que le permitirán desarrollar competencias volviéndose así más atractivo en el mercado.
+									<br><br>
+									<strong>
+										Tipos de programas:
+									</strong>
 								</p>
+								<ol>
+									<li>PLATINUM (Jefaturas y Gerencias)</li>
+									<li>GOLD (Mandos Medios)</li>
+									<li>ZÁFIRO (Trabajadores con poca experiencia, operarios  y/o recién egresados)</li>
+								</ol>
 								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
+									Aseguramos que el trabajador esté listo para reinsertarse cuando él lo requiera y poder afrontar este proceso de cambio de manera objetiva, valiente y optimista; reflejando estabilidad emocional frente a esta situación y criterio para la toma de decisiones.
+									<br><br>
+									<strong>
+										Ventajas:
+									</strong>
 								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
-								</p>
-								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
+								<ol>
+									<li>Multiplica las oportunidades de conseguir empleo en menor tiempo.</li>
+									<li>Reduce el impacto negativo en la reducción de personal.</li>
+									<li>Reduce significativamente los problemas legales.</li>
+									<li>Refleja el respeto, compromiso moral y humano de la organización con el personal que sale y con él continuará.</li>
+									<li>Genera una imagen positiva de la compañía internamente, así como con clientes, proveedores, la comunidad, el sector y los medios.</li>
+								</ol>
 							</div>
 						</div>
 						<a href="#" class="contacto">
@@ -185,23 +195,26 @@
 						<div class="parrafo">
 							<div class="scrollbar-inner">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
+									¿Sus trabajadores manifiestan irritabilidad, depresión, agotamiento físico y/o mental?  ¿Se ha reducido la productividad de su empresa y hay un descenso de la calidad de vida de sus trabajadores y mayor deserción laboral?
+									<br><br>
+									Si es así, este programa es para usted; el mismo se ha diseñado para ayudar a sus trabajadores a manejar el estrés de forma positiva, mejorando su salud mental, emocional y física. Usted verá un mejor desempeño en ellos, un mejor clima laboral y una mayor productividad. 
+									<br><br>
+									Los pasos que contempla nuestro programa son:
 								</p>
-								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
-								</p>
-								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
+								<ol>
+									<li>
+										Diagnóstico del estrés en su organización: El propósito del diagnóstico es identificar el nivel de estrés de sus colaboradores y los factores que desencadenan el mismo.
+									</li>
+									<li>
+										Capacitación sobre el manejo del estrés: Nuestra capacitación se enfoca en desarrollar factores protectores y preventivos frente al estrés, teniendo en cuenta a su vez los factores que lo desencadenan.
+									</li>
+									<li>
+										Coaching Grupal - Casos Críticos: El diagnóstico nos permitirá identificar los casos críticos de colaboradores con estrés severo; ellos se beneficiarán de 4 asesorías de coaching psicoterapéutico que busca ayudarlos a reducir su nivel de estrés.
+									</li>
+									<li>
+										Pre Work Dancing – Time to Dance: Sus colaboradores podrán ejercitarse y liberar cualquier tensión en sesiones de baile 100% dinámicas y relajantes.
+									</li>
+								</ol>
 							</div>
 						</div>
 						<a href="#" class="contacto">
@@ -267,22 +280,16 @@
 						<div class="parrafo">
 							<div class="scrollbar-inner">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
+									Beula Consultores, ha generado y mantiene alianzas estratégicas con instituciones educativas, científicas, tecnológicas y culturales de primer nivel, así como con entidades gubernamentales y organismos internacionales, lo cual nos permite crear vínculos bilateralmente beneficiosas. A continuación el listado de instituciones:
+									<br><br>
+									<strong>
+										CONVENIOS INTERNACIONALES:
+									</strong>
 								</p>
 								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
-								</p>
-								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
+									American Pontifical Catholic University
+									<br>
+									<img src="{{url('assets/images/logo-apcu.jpg')}}" alt="" class="img-responsive pull-right">
 								</p>
 							</div>
 						</div>

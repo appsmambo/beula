@@ -13,22 +13,18 @@
 						<div class="parrafo">
 							<div class="scrollbar-inner">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
+									<strong>
+										MISIÓN
+									</strong>
+									<br>
+									Nos distinguimos por servir y satisfacer las principales necesidades de nuestros clientes, a través de servicios y metodologías innovadoras, los cuales tienen como objetivo optimizar los procesos de las áreas que se ven vinculadas en el sector Organizacional, haciendo felices a sus trabajadores.
 								</p>
 								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec nibh faucibus, varius augue et, vulputate tortor. Aenean ut nibh non tortor volutpat cursus a sit amet tellus. Suspendisse aliquam aliquet nisl, ac posuere mauris maximus eu.
-								</p>
-								<p>
-									Praesent dictum interdum augue, euismod rhoncus risus euismod non. Nam a dapibus purus. Donec lacinia magna turpis, ut vestibulum lectus interdum sit amet. Mauris id aliquet urna. Sed purus ipsum, facilisis eu velit ut, aliquam facilisis dolor. Duis a quam a odio euismod bibendum consectetur in nulla. Duis urna leo, bibendum id velit sit amet, accumsan laoreet tortor. Quisque porttitor, ante in dictum maximus, odio lectus imperdiet lorem, suscipit laoreet neque nunc sit amet est.
-								</p>
-								<p>
-									Cras eget lacinia dolor. Duis eleifend est id orci porta finibus. Phasellus mollis suscipit dolor, quis gravida nibh lacinia eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque egestas venenatis eros, nec fermentum justo suscipit egestas.
+									<strong>
+										VISIÓN
+									</strong>
+									<br>
+									Convertirnos en el principal socio estratégico de cada uno de nuestros clientes a nivel nacional e internacional. Siendo reconocidos por la calidad y distinción de nuestro trabajo.
 								</p>
 							</div>
 						</div>
