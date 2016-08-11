@@ -5,6 +5,7 @@
         <group>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/layouts/inicio.blade.php</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/inicio.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beula/proyecto/app/views/layouts/interna.blade.php</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/assets/css/styles.css</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/routes.php</file>
             <file>file:/C:/xampp/htdocs/beula/proyecto/app/controllers/HomeController.php</file>

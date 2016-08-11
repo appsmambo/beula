@@ -98,25 +98,25 @@
 					<div class="col-md-9">
 						<ul class="links-sociales pull-right">
 							<li>
-								<a href="" target="_blank" class="center-block">
-									<i class="fa fa-youtube fa-lg"></i>
+								<a href="https://www.linkedin.com/in/grupo-beula-consultores-98921170" target="_blank" class="center-block">
+									<i class="fa fa-linkedin fa-lg"></i>
 								</a>
 							</li>
 							<li>
-								<a href="" target="_blank" class="center-block">
+								<a href="https://twitter.com/beula_" target="_blank" class="center-block">
 									<i class="fa fa-twitter fa-lgx"></i>
 								</a>
 							</li>
 							<li>
-								<a href="" target="_blank" class="center-block">
+								<a href="https://www.facebook.com/Beula.Consultores/?fref=ts" target="_blank" class="center-block">
 									<i class="fa fa-facebook fa-lg"></i>
 								</a>
 							</li>
-							<li>
+							<!--<li>
 								<a href="" target="_blank" class="center-block">
 									<i class="fa fa-search fa-lg"></i>
 								</a>
-							</li>
+							</li>-->
 						</ul>
 						<div class="row">
 							<div class="col-md-12">
