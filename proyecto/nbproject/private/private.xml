@@ -3,12 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/js/landing.js</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/controllers/LandingController.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/config/app.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/css/landing.css</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/app/routes.php</file>
-            <file>file:/C:/Users/USER/Documents/GitHub/beula/proyecto/css/main.css</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/views/layouts/inicio.blade.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/views/escuela/seminarios.blade.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/views/escuela/cursos.blade.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/assets/css/bootstrap.min.css</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/controllers/HomeController.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/routes.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/views/inicio.blade.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/assets/scripts/main.js</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/app/views/escuela/especializaciones.blade.php</file>
+            <file>file:/D:/xampp/htdocs/beula/proyecto/assets/css/styles.css</file>
         </group>
     </open-files>
 </project-private>

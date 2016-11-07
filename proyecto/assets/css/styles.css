@@ -13,7 +13,7 @@ a {
 	-o-transition:color 250ms ease-out;
 	transition:color 250ms ease-out
 }
-a, a:hover {
+a, a:active, a:focus, a:hover {
 	text-decoration:none
 }
 ul {
@@ -50,18 +50,38 @@ header {
 	width:100%;
 	z-index:100
 }
+footer {
+	background:rgba(0, 0, 0, .9);
+	bottom:0;
+	position:fixed;
+	width:100%;
+	z-index:100
+}
+footer p {
+	color:#fff;
+	font-size:11px;
+	line-height:18px;
+	margin:3px 0
+}
+footer p a {
+	color:#fff;
+	display:inline-block
+}
+footer p a:hover {
+	color:#fff
+}
 .logo {
 	margin:15px 0
 }
 .links-sociales {
-	margin:15px 0
+	margin:12px 0
 }
 .links-sociales li {
 	background-color:#a6a6a6;
 	float:left;
 	margin:0 4px;
-	padding:5px 0;
-	width:30px;
+	padding:4px 0;
+	width:28px;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
@@ -135,6 +155,12 @@ header {
 .section.mision-vision {
 	background-image:url('../images/fondos/acerca-de-beula.jpg')
 }
+.section.servicios-interna {
+	background-image:url('../images/fondos/reclutamiento.jpg')
+}
+.section.escuela-interna {
+	background-image:url('../images/fondos/escuela-interna.jpg')
+}
 .bloque {
 	background-color:rgba(29,29,27,.7);
 	padding:46px 0
@@ -170,8 +196,8 @@ header {
 	-webkit-border-radius:2px 2px 2px 2px
 }
 .beula p,
-.servicios p,
-.escuela p {
+.servicios p.titulo,
+.escuela p.titulo {
 	background-color:#00b1e1;
 	color:#fff
 }
@@ -180,19 +206,19 @@ header {
 	line-height:68px;
 	max-width:299px
 }
-.servicios p,
-.escuela p {
+.servicios p.titulo,
+.escuela p.titulo {
 	font-size:11px;
 	line-height:14px;
 	margin-bottom:30px;
 	max-width:315px;
 	padding-bottom:10px
 }
-.escuela p {
+.escuela p.titulo {
 	max-width:264px
 }
-.servicios p img,
-.escuela p img {
+.servicios p.titulo img,
+.escuela p.titulo img {
 	margin-bottom:10px
 }
 .beula a,

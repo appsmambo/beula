@@ -61,32 +61,32 @@
 						</h2>
 						<div class="row">
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/reclutamiento-seleccion-de-personal')}}">
 										<img src="{{url('assets/images/servicios/reclutamiento-y-seleccion-de-personal.jpg')}}" alt="" class="img-responsive">
 										RECLUTAMIENTO Y SELECCIÓN<br>DE PERSONAL
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/evaluaciones-psicolaborales-desempeno')}}">
 										<img src="{{url('assets/images/servicios/evaluaciones-psicolaboral-y-desempeno.jpg')}}" alt="" class="img-responsive">
 										EVALUACIONES<br>PSICOLABORALES<!--<br>Y DE DESEMPEÑO-->
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/analisis-descripcion-de-puestos')}}">
 										<img src="{{url('assets/images/servicios/analisis-y-descripcion-de-puestos.jpg')}}" alt="" class="img-responsive">
 										ANÁLISIS Y DESCRIPCIÓN<br>DE PUESTOS
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/identificacion-de-competencias')}}">
 										<img src="{{url('assets/images/servicios/identificacion-de-competencias.jpg')}}" alt="" class="img-responsive">
 										IDENTIFICACIÓN DE<br>COMPETENCIAS
 									</a>
@@ -95,32 +95,32 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/capacitacion-de-personal')}}">
 										<img src="{{url('assets/images/servicios/capacitacion.jpg')}}" alt="" class="img-responsive">
 										CAPACITACIÓN<br>DE PERSONAL
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/outdoor-training')}}">
 										<img src="{{url('assets/images/servicios/outdoor-training.jpg')}}" alt="" class="img-responsive">
 										OUTDOOR<br>TRAINING
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/elearning-corporativo')}}">
 										<img src="{{url('assets/images/servicios/e-learning-corporativo.jpg')}}" alt="" class="img-responsive">
 										E-LEARNING<br>CORPORATIVO
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-6 col-lg-3">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('servicios/terapia-empresarial-psicologica')}}">
 										<img src="{{url('assets/images/servicios/terapia-empresarial-psicologica.jpg')}}" alt="" class="img-responsive">
 										TERAPIA EMPRESARIAL<br>PSICOLÓGICA
 									</a>
@@ -237,29 +237,36 @@
 						</h2>
 						<div class="row">
 							<div class="col-sm-4">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('escuela/especializaciones')}}">
 										<img src="{{url('assets/images/escuela/especializaciones.jpg')}}" alt="" class="img-responsive">
 										ESPECIALIZACIONES
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-4">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('escuela/cursos')}}">
 										<img src="{{url('assets/images/escuela/cursos.jpg')}}" alt="" class="img-responsive">
 										CURSOS
 									</a>
 								</p>
 							</div>
 							<div class="col-sm-4">
-								<p class="center-block text-center">
-									<a href="#">
+								<p class="center-block text-center titulo">
+									<a href="{{url('escuela/seminarios')}}">
 										<img src="{{url('assets/images/escuela/seminarios.jpg')}}" alt="" class="img-responsive">
 										SEMINARIOS
 									</a>
 								</p>
 							</div>
+						</div>
+						<div class="parrafo">
+							<p class="text-justify">
+								Todos nuestros programas formativos han sido desarrollados buscando el desarrollo integral de los estudiantes a nivel actitudinal y profesional. Contamos con el respaldo y auspicio de instituciones de prestigio a nivel nacional e internacional.  Nuestro staff docente es personal especialista en su rubro y líderes de grandes compañías a nivel nacional e internacional.
+								<br><br>
+								Desarrollarte en Beula te permitirá convertirte en la mejor versión de ti mismo, ampliar tu red de contactos y tendrás la oportunidad de ingresar a nuestra bolsa de trabajo o autogestionar tu propia consultoría en el tema en el que te vuelvas especialista.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -286,10 +293,10 @@
 										CONVENIOS INTERNACIONALES:
 									</strong>
 								</p>
-								<p>
-									American Pontifical Catholic University
+								<p class="text-center">
+									<img src="{{url('assets/images/logo-apcu.jpg')}}" alt="" class="img-responsive center-block">
 									<br>
-									<img src="{{url('assets/images/logo-apcu.jpg')}}" alt="" class="img-responsive pull-right">
+									American Pontifical Catholic University
 								</p>
 							</div>
 						</div>
@@ -310,7 +317,7 @@
 					<div class="col-sm-8 col-sm-offset-2">
 						<div class="row">
 							<div class="col-sm-5 col-lg-3">
-								<img src="http://beula.com.pe/web-2016-3/assets/images/aula-virtual.png" alt="" class="img-responsive center-block">
+								<img src="{{url('assets/images/aula-virtual.png')}}" alt="" class="img-responsive center-block">
 							</div>
 							<div class="col-sm-7 col-lg-8">
 								<p>

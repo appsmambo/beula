@@ -22,6 +22,7 @@ $(document).ready(function () {
 	$('#fullpage').fullpage({
 		menu:'#menu',
 		anchors:['inicio','beula','servicios','recolocacion-laboral','estres-management','escuela','convenios','aula-virtual','contactenos'],
+		normalScrollElements:'.scrollbar-inner'
 	});
 	$('.scrollbar-inner').scrollbar();
 	/*
