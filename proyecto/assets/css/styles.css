@@ -1,0 +1,264 @@
+body {
+	font-family:'Lato',sans-serif;
+	font-size:14px;
+	font-weight:400
+}
+strong {
+	font-weight:700
+}
+a {
+	display:block;
+	-webkit-transition:color 250ms ease-out;
+	-moz-transition:color 250ms ease-out;
+	-o-transition:color 250ms ease-out;
+	transition:color 250ms ease-out
+}
+a, a:hover {
+	text-decoration:none
+}
+ul {
+	list-style:none;
+	margin:0;
+	padding:0
+}
+h2 {
+	background-image:url('../images/bullet-titulo.png');
+	background-position:left center;
+	background-repeat:no-repeat;
+	color:#fff;
+	font-size:26px;
+	font-weight:bold;
+	line-height:32px;
+	margin-bottom:30px;
+	padding-left:28px
+}
+.contactenos h2 {
+	color:#1d1d1b
+}
+h2.oscuro {
+	background-color:#1d1d1b;
+	background-image:none;
+	margin-bottom:0;
+	margin-top:0;
+	padding-bottom:10px;
+	padding-left:22px;
+	padding-top:10px
+}
+header {
+	background-color:#fff;
+	position:fixed;
+	width:100%;
+	z-index:100
+}
+.logo {
+	margin:15px 0
+}
+.links-sociales {
+	margin:15px 0
+}
+.links-sociales li {
+	background-color:#a6a6a6;
+	float:left;
+	margin:0 4px;
+	padding:5px 0;
+	width:30px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-transition:background-color 500ms ease-out;
+	-moz-transition:background-color 500ms ease-out;
+	-o-transition:background-color 500ms ease-out;
+	transition:background-color 500ms ease-out
+}
+.links-sociales li:hover {
+	background-color:#00b1e1
+}
+.links-sociales li a {
+	color:#fff;
+	text-align:center
+}
+.menu {
+
+}
+.menu li {
+	float:left
+}
+.menu li a {
+	color:#000;
+	font-weight:700;
+	margin:0 9px
+}
+/*.menu li a.submenu:hover {
+	background-image:url('../images/menu.png');
+	background-position:center 60%;
+	background-repeat:repeat-x
+}*/
+.menu li a:hover,
+.menu li.active a {
+	border-bottom:3px solid #00b1e1;
+	color:#00b1e1
+}
+.menu li ul {
+	display:none
+}
+.buscador {
+	background-color:#00b1e1;
+	border-bottom:5px solid #a4dff1;
+	height:50px
+}
+#section0 {
+	
+}
+.section.beula {
+	background-image:url('../images/fondos/beula.jpg')
+}
+.section.servicios,
+.section.convenios {
+	background-image:url('../images/fondos/comun.jpg')
+}
+.section.recolocacion {
+	background-image:url('../images/fondos/recolocacion.jpg')
+}
+.section.estres {
+	background-image:url('../images/fondos/estres-management.jpg')
+}
+.section.escuela {
+	background-image:url('../images/fondos/escuela.jpg')
+}
+.section.aula-virtual {
+	background-image:url('../images/fondos/aula-virtual.jpg')
+}
+.section.contactenos {
+	background-image:url('../images/fondos/contactanos.jpg')
+}
+.section.acerca-de,
+.section.mision-vision {
+	background-image:url('../images/fondos/acerca-de-beula.jpg')
+}
+.bloque {
+	background-color:rgba(29,29,27,.7);
+	padding:46px 0
+}
+.contactenos .bloque {
+	background-color:rgba(255,255,255,.7)
+}
+#aula-virtual {
+	position:relative
+}
+#aula-virtual .bloque {
+	bottom:0;
+	left:0;
+	margin-bottom:40px;
+	overflow:hidden;
+	position:absolute;
+	width:100%
+}
+.contacto {
+	background-image:url('../images/fondos/boton.jpg');
+	background-position:center center;
+	background-repeat:repeat-x;
+	border:none;
+	color:#fff;
+	float:left;
+	font-size:16px;
+	height:48px;
+	line-height:48px;
+	margin:20px 0 0;
+	padding:0 24px;
+	border-radius:2px 2px 2px 2px;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px
+}
+.beula p,
+.servicios p,
+.escuela p {
+	background-color:#00b1e1;
+	color:#fff
+}
+.beula p {
+	font-size:16px;
+	line-height:68px;
+	max-width:299px
+}
+.servicios p,
+.escuela p {
+	font-size:11px;
+	line-height:14px;
+	margin-bottom:30px;
+	max-width:315px;
+	padding-bottom:10px
+}
+.escuela p {
+	max-width:264px
+}
+.servicios p img,
+.escuela p img {
+	margin-bottom:10px
+}
+.beula a,
+.servicios a,
+.escuela a {
+	color:#fff
+}
+.beula a:hover,
+.servicios a:hover,
+.escuela a:hover {
+	color:#a4dff1
+}
+.bloque .parrafo {
+	background-color:#fff;
+	color:#000;
+	padding:40px 30px
+}
+.parrafo > div {
+	max-height:180px
+}
+.aula-virtual p {
+	color:#fff;
+	font-size:16px;
+	font-style:italic;
+	line-height:24px
+}
+#contacto .row {
+	margin-bottom:10px
+}
+
+@media(max-width:767px) {
+	h2 {
+		background-image:url('../images/bullet-titulo-mobile.png');
+		font-size:18px;
+		line-height:normal;
+		margin:10px 0;
+		padding-left:18px
+	}
+	.beula p, .servicios p, .escuela p {
+		font-size:14px;
+		line-height:26px
+	}
+	.bloque {
+		padding:0
+	}
+}
+
+/*
+.container-fluid.fondo {
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover
+}
+.container-fluid.beula {
+	background:url('../images/fondos/beula.jpg') no-repeat center center fixed
+}
+.container-fluid.servicios,
+.container-fluid.comun {
+	background:url('../images/fondos/comun.jpg') no-repeat center center fixed
+}
+.container-fluid.recolocacion-laboral {
+	
+}
+.container-fluid.aula-virtual {
+	background:url('../images/fondos/aula-virtual.jpg') no-repeat center center fixed
+}
+
+*/
