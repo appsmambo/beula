@@ -4,6 +4,8 @@ Route::get('/', array('as' => 'inicio', 'uses' => 'HomeController@getInicio'));
 
 Route::get('/beula/acerca-de', array('as' => 'acercaDe', 'uses' => 'HomeController@getAcercaDe'));
 Route::get('/beula/mision-y-vision', array('as' => 'misionVision', 'uses' => 'HomeController@getMisionVision'));
+Route::get('/beula/form-modal', array('as' => 'formModal', 'uses' => 'HomeController@getFormModal'));
+Route::get('/beula/sendform', array('as' => 'sendForm', 'uses' => 'HomeController@getSendForm'));
 
 Route::get('/servicios/reclutamiento-seleccion-de-personal', array('uses' => 'HomeController@getServicioReclutamiento'));
 Route::get('/servicios/evaluaciones-psicolaborales-desempeno', array('uses' => 'HomeController@getServicioEvaluacionesPsicolaboralesDesempeno'));

@@ -16,7 +16,17 @@ class HomeController extends BaseController {
 	{
 		return View::make('beula.mision-vision');
 	}
+
+	public function getFormModal()
+	{
+		return View::make('beula.form-modal');
+	}
 	
+	public function getSendForm()
+	{
+		return View::make('beula.sendform');
+	}
+
 	public function getServicioReclutamiento()
 	{
 		return View::make('servicios.reclutamiento');

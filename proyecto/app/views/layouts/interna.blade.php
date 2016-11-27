@@ -114,23 +114,17 @@
 						</ul>
 						<div class="row">
 							<div class="col-md-12">
+							<nav>
 								<ul id="menu" class="menu pull-right">
 									<li data-menuanchor="beula">
 										<a href="{{url('/#beula')}}" class="submenu">
 											Beula
 										</a>
 										<ul>
-											<li>
-												<a href="#">
-													Acerca de Beula
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													Nuestra Misión y Visión
-												</a>
-											</li>
-										</ul>
+								          <li><a href="#">Category One</a></li>
+								          <li><a href="#">Category Two</a></li>
+								          <li><a href="#">Category Three</a></li>
+								        </ul>
 									</li>
 									<li data-menuanchor="servicios">
 										<a href="{{url('/#servicios')}}">
@@ -168,6 +162,7 @@
 										</a>
 									</li>
 								</ul>
+							</nav>
 							</div>
 						</div>
 					</div>

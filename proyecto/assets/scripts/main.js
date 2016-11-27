@@ -5,6 +5,7 @@ $(window).load(function () {
 	$('.fondo.aula-virtual').height(altoVentana);
 });
 
+
 $(document).ready(function () {
 	/*$('#slider').lightSlider({
 		item:1,
@@ -22,9 +23,23 @@ $(document).ready(function () {
 	$('#fullpage').fullpage({
 		menu:'#menu',
 		anchors:['inicio','beula','servicios','recolocacion-laboral','estres-management','escuela','convenios','aula-virtual','contactenos'],
-		normalScrollElements:'.scrollbar-inner'
+		normalScrollElements:'.scrollbar-inner',
+		scrollBar: true,
+		autoScrolling:false,
+		normalScrollElements: '.modal-open'
 	});
 	$('.scrollbar-inner').scrollbar();
+
+	$('nav li').hover(
+	  function() {
+		  $('ul', this).stop().slideDown(200);
+	  },
+		function() {
+	    $('ul', this).stop().slideUp(200);
+	  }
+	);
+
+
 	/*
 	$('a[href*="#"]:not([href="#"])').click(function () {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -40,3 +55,4 @@ $(document).ready(function () {
 	});
 	*/
 });
+

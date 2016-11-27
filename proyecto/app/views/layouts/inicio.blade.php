@@ -27,6 +27,23 @@
 		<h1 class="hidden">
 			Grupo Beula Consultores
 		</h1>
+
+		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Contact" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <span aria-hidden="true">&times;</span>
+		                </button>
+		            </div>
+
+		            <div class="modal-body">
+		                <iframe src="{{url('beula/form-modal')}}" width="100%" height="550" frameborder="0" allowtransparency="true"></iframe>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
 		<nav class="navbar navbar-default visible-xs visible-sm">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -120,60 +137,55 @@
 						</ul>
 						<div class="row">
 							<div class="col-md-12">
-								<ul id="menu" class="menu pull-right">
-									<li data-menuanchor="beula">
-										<a href="#beula" class="submenu">
-											Beula
-										</a>
-										<ul>
-											<li>
-												<a href="#">
-													Acerca de Beula
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													Nuestra Misión y Visión
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li data-menuanchor="servicios">
-										<a href="#servicios">
-											Servicios
-										</a>
-									</li>
-									<li data-menuanchor="recolocacion-laboral">
-										<a href="#recolocacion-laboral">
-											Recolocación Laboral
-										</a>
-									</li>
-									<li data-menuanchor="estres-management">
-										<a href="#estres-management">
-											Estrés Management
-										</a>
-									</li>
-									<li data-menuanchor="escuela">
-										<a href="#escuela">
-											Escuela
-										</a>
-									</li>
-									<li data-menuanchor="convenios">
-										<a href="#convenios">
-											Convenios
-										</a>
-									</li>
-									<li data-menuanchor="aula-virtual">
-										<a href="#aula-virtual">
-											Aula Virtual
-										</a>
-									</li>
-									<li data-menuanchor="contactenos">
-										<a href="#contactenos">
-											Contáctenos
-										</a>
-									</li>
-								</ul>
+								<nav>
+									<ul id="menu" class="menu pull-right">
+										<li data-menuanchor="beula">
+											<a href="#beula" class="submenu">
+												Beula<i class='fa fa-angle-down'></i>
+											</a>
+											<ul>
+									          <li><a href="#">Category One</a></li>
+									          <li><a href="#">Category Two</a></li>
+									          <li><a href="#">Category Three</a></li>
+									        </ul>
+										</li>
+										<li data-menuanchor="servicios">
+											<a href="#servicios">
+												Servicios
+											</a>
+										</li>
+										<li data-menuanchor="recolocacion-laboral">
+											<a href="#recolocacion-laboral">
+												Recolocación Laboral
+											</a>
+										</li>
+										<li data-menuanchor="estres-management">
+											<a href="#estres-management">
+												Estrés Management
+											</a>
+										</li>
+										<li data-menuanchor="escuela">
+											<a href="#escuela">
+												Escuela
+											</a>
+										</li>
+										<li data-menuanchor="convenios">
+											<a href="#convenios">
+												Convenios
+											</a>
+										</li>
+										<li data-menuanchor="aula-virtual">
+											<a href="#aula-virtual">
+												Aula Virtual
+											</a>
+										</li>
+										<li data-menuanchor="contactenos">
+											<a href="#contactenos">
+												Contáctenos
+											</a>
+										</li>
+									</ul>
+								</nav>
 							</div>
 						</div>
 					</div>

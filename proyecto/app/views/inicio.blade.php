@@ -174,7 +174,7 @@
 								</ol>
 							</div>
 						</div>
-						<a href="#" class="contacto">
+						<a href="#" class="contacto" data-toggle="modal" data-target="#contactModal">
 							Contáctanos aquí
 						</a>
 					</div>
