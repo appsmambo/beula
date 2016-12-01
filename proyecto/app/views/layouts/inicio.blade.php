@@ -99,17 +99,17 @@
 						<ul class="links-sociales pull-right">
 							<li>
 								<a href="https://www.linkedin.com/in/grupo-beula-consultores-98921170" target="_blank" class="center-block">
-									<i class="fa fa-linkedin fa-lg"></i>
+									<i class="fa fa-linkedin"></i>
 								</a>
 							</li>
 							<li>
 								<a href="https://twitter.com/beula_" target="_blank" class="center-block">
-									<i class="fa fa-twitter fa-lgx"></i>
+									<i class="fa fa-twitter"></i>
 								</a>
 							</li>
 							<li>
 								<a href="https://www.facebook.com/Beula.Consultores/?fref=ts" target="_blank" class="center-block">
-									<i class="fa fa-facebook fa-lg"></i>
+									<i class="fa fa-facebook"></i>
 								</a>
 							</li>
 							<!--<li>
@@ -181,5 +181,14 @@
 			</section>
 		</header>
 		@yield('contenido')
+		<footer>
+			<section class="container">
+				<p>
+					Grupo Beula Consultores <span class="pull-right">Jirón Risso 242 – 246, Ofc. 403. Lince. (Alt. 20 de la Arequipa)</span>
+					<br>
+					<a href="mailto:informes@beula.com.pe">informes@beula.com.pe</a> - <a href="mailto:seleccion@beula.com.pe">seleccion@beula.com.pe</a> <span class="pull-right"><a href="tel:012530078">253-0078</a> – <a href="tel:017373279">737-3279</a> – <a href="tel:987121711">987-121-711</a> – <a href="tel:969637073">969-637-073</a></span>
+				</p>
+			</section>
+		</footer>
 	</body>
 </html>
