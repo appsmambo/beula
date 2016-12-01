@@ -18,3 +18,4 @@ Route::get('/escuela/cursos', array('uses' => 'HomeController@getEscuelaCursos')
 Route::get('/escuela/especializaciones', array('uses' => 'HomeController@getEscuelaEspecializaciones'));
 Route::get('/escuela/seminarios', array('uses' => 'HomeController@getEscuelaSeminarios'));
 
+
