@@ -118,12 +118,12 @@ nav ul li a {
   color: #000;
   display: block;
   font-size: 14px;
-  padding: 6px 13px;
+  padding: 6px;
   transition: 0.3s linear;
   font-weight: 700;
 }
 nav ul li a:hover {
-	//border-bottom:3px solid #00b1e1;
+	/*border-bottom:3px solid #00b1e1;*/
 	color:#00b1e1;
 }
 
@@ -139,7 +139,7 @@ nav ul li ul {
 }
 
 nav ul li ul li {
-  //border-top: 1px solid #444;
+  /*border-top: 1px solid #444;*/
   display: block;
 }
 
@@ -320,7 +320,8 @@ nav .fa.fa-angle-down { margin-left: 6px; }
 }
 
 body#form-modal{
-	background: transparent;
+	background:#000;
+	padding:0 12px
 }
 
 button.close{
@@ -402,7 +403,7 @@ button.close:hover{
 }
 
 body.modal-open{
-	//overflow: hidden !important;
+	/*overflow: hidden !important;*/
 	padding-right: 0 !important;
 }
 

@@ -29,19 +29,19 @@
 		</h1>
 
 		<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Contact" aria-hidden="true" data-keyboard="false" data-backdrop="static">
-		    <div class="modal-dialog">
-		        <div class="modal-content">
-		            <div class="modal-header">
-		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		                    <span aria-hidden="true">&times;</span>
-		                </button>
-		            </div>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
 
-		            <div class="modal-body">
-		                <iframe src="{{url('beula/form-modal')}}" width="100%" height="550" frameborder="0" allowtransparency="true"></iframe>
-		            </div>
-		        </div>
-		    </div>
+					<div class="modal-body">
+						<iframe src="{{url('beula/form-modal')}}" width="100%" height="550" frameborder="0" allowtransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<nav class="navbar navbar-default visible-xs visible-sm">
@@ -144,15 +144,24 @@
 												Beula<i class='fa fa-angle-down'></i>
 											</a>
 											<ul>
-									          <li><a href="#">Category One</a></li>
-									          <li><a href="#">Category Two</a></li>
-									          <li><a href="#">Category Three</a></li>
-									        </ul>
+												<li><a href="{{url('/beula/acerca-de')}}">Acerca de Beula</a></li>
+												<li><a href="{{url('/beula/mision-y-vision')}}">Misión y Visión</a></li>
+											</ul>
 										</li>
 										<li data-menuanchor="servicios">
-											<a href="#servicios">
-												Servicios
+											<a href="#servicios" class="submenu">
+												Servicios<i class='fa fa-angle-down'></i>
 											</a>
+											<ul>
+												<li><a href="{{url('/servicios/reclutamiento-seleccion-de-personal')}}">Reclutamiento y selección de personal</a></li>
+												<li><a href="{{url('/servicios/evaluaciones-psicolaborales-desempeno')}}">Evaluaciones psicolaborales</a></li>
+												<li><a href="{{url('/servicios/analisis-descripcion-de-puestos')}}">Análisis y descripción de puestos</a></li>
+												<li><a href="{{url('/servicios/identificacion-de-competencias')}}">Identificación de competencias</a></li>
+												<li><a href="{{url('/servicios/capacitacion-de-personal')}}">Capacitación</a></li>
+												<li><a href="{{url('/servicios/outdoor-training')}}">Outdoor training</a></li>
+												<li><a href="{{url('/servicios/elearning-corporativo')}}">E–learning corporativo</a></li>
+												<li><a href="{{url('/servicios/terapia-empresarial-psicologica')}}">Terapia empresarial psicológica</a></li>
+											</ul>
 										</li>
 										<li data-menuanchor="recolocacion-laboral">
 											<a href="#recolocacion-laboral">
@@ -165,9 +174,14 @@
 											</a>
 										</li>
 										<li data-menuanchor="escuela">
-											<a href="#escuela">
-												Escuela
+											<a href="#escuela" class="submenu">
+												Escuela<i class='fa fa-angle-down'></i>
 											</a>
+											<ul>
+												<li><a href="{{url('/escuela/especializaciones')}}">Especializaciones</a></li>
+												<li><a href="{{url('/escuela/cursos')}}">Cursos</a></li>
+												<li><a href="{{url('/escuela/seminarios')}}">Seminarios</a></li>
+											</ul>
 										</li>
 										<li data-menuanchor="convenios">
 											<a href="#convenios">
